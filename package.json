@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "name": "launcher-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicro/launcher-server.git"
+  },
+  "author": "nicro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicro/launcher-server/issues"
+  },
+  "homepage": "https://github.com/nicro/launcher-server#readme"
+}

@@ -1,5 +1,8 @@
 const express = require('express')
+var cors = require('cors')
 var app = express()
+
+app.use(cors())
 
 app.get('/api/v1/app/all', (req, res) => {
   res.send(JSON.stringify({

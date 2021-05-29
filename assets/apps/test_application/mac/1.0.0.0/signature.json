@@ -1,0 +1,17 @@
+{
+    "hash":"8ae2797163f4570bf1487e107783f86f0ec5a4e3",
+    "subhashes":[
+    {
+    "hash":"419ae7898a899f968997977a4a791c8a2fc21e44",
+    "path":"/config1.json"
+    },
+    {
+    "hash":"f760b81c7d36406645a4a966e78a328f099f409f",
+    "path":"/data/book.jpg"
+    },
+    {
+    "hash":"a8ed36c4a6b8c4c52f2b9b0fc3fe92dfa8e2c940",
+    "path":"/data/config2.json"
+    }
+    ]
+    }

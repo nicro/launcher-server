@@ -1,4 +1,5 @@
 const express = require('express')
+const process = require('process')
 var cors = require('cors')
 var app = express()
 
@@ -15,4 +16,7 @@ app.get('/api/v1/app/all', (req, res) => {
 })
 
 app.use('/', express.static('assets'))
-app.listen(3001, () => console.log('server started'))
+
+var port = process.env.PORT || 3001;
+
+app.listen(port, () => console.log('server started on port %d', port))

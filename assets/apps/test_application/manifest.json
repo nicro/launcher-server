@@ -9,6 +9,6 @@
         ]
     },
     "runCommand": {
-        "mac": "open -a TextEdit"
+        "mac": "testapp.app"
     }
 }

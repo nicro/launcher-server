@@ -15,6 +15,12 @@ app.get('/api/v1/app/all', (req, res) => {
     }))
 })
 
+app.get('/api/v1/ping', (req, res) => {
+    res.send(JSON.stringify({
+        "status": "success"
+    }))
+})
+
 app.use('/', express.static('assets'))
 
 var port = process.env.PORT || 3001;

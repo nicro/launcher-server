@@ -10,5 +10,8 @@
     },
     "runCommand": {
         "mac": "testapp.app"
+    },
+    "args": {
+        "mac": "--test somedata"
     }
 }
